@@ -74,7 +74,8 @@ const Hero = () => {
               <ArrowDown className="w-4 h-4" />
             </a>
             <a
-              href="#"
+              href="/resume.pdf"
+              download="Muhammed_Fayiz_Resume.pdf"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg glass border-glass-border text-foreground font-semibold hover:bg-card/80 transition-all"
             >
               <Download className="w-4 h-4" />

@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 glass-strong">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <a href="#" className="font-mono font-bold text-lg glow-text">
-          fayiz.dev
+          Fayiz
         </a>
 
         {/* Desktop */}

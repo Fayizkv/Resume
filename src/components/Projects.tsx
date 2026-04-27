@@ -3,38 +3,66 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "WhatsApp AI Agent (WhisAi)",
+    title: "WhatsApp AI Agent",
     description:
-      "Multi-tenant project to automate workflows using WhatsApp Cloud API integrated with Notion, Google Sheets, Calendars, Gmail, and Gemini (via LangChain, LangGraph Node.js) and n8n for dynamic task execution. Redis BullMQ for handling large requests.",
-    tags: ["Node.js", "LangChain", "LangGraph", "Redis", "BullMQ", "n8n"],
+      "Built a multi-tenant automation platform using Meta WhatsApp Cloud API (Flows, Business API), integrated with Notion, Google Sheets, Calendars, Gmail, and Gemini via LangChain and LangGraph. Used Redis and BullMQ for scalable task processing.",
+    tags: ["Node.js", "LangChain", "LangGraph", "Redis", "BullMQ", "WhatsApp API"],
+    featured: true,
+  },
+  {
+    title: "ERP System",
+    description:
+      "Developed a full ERP solution using Node.js, PostgreSQL, and React with GST compliance, inventory management, accounting, and CRM modules.",
+    tags: ["Node.js", "PostgreSQL", "React", "ERP"],
+    featured: true,
+  },
+  {
+    title: "Custom CRM",
+    description:
+      "Designed a CRM system with lead tracking, communication logging, and automation workflows.",
+    tags: ["CRM", "Node.js", "React"],
+    featured: true,
+  },
+  {
+    title: "WhatsApp Broadcasting System",
+    description:
+      "Developed a real-time bulk messaging system using Baileys (WebSockets) for automation workflows.",
+    tags: ["WebSockets", "Baileys", "Node.js"],
     featured: true,
   },
   {
     title: "Knowledge AI System",
     description:
-      "Implemented a Retrieval-Augmented Generation (RAG) pipeline using Gemini on a structured SQL knowledge base for context-aware question answering.",
+      "Built a RAG-based system using Gemini on structured SQL data for context-aware question answering.",
     tags: ["RAG", "Gemini", "SQL", "Python"],
+    featured: true,
+  },
+  {
+    title: "EcoCart (E-Commerce)",
+    description:
+      "MERN-based platform with cart, payments (Razorpay), and admin dashboard.",
+    tags: ["MongoDB", "Express", "React", "Node.js", "Razorpay"],
     featured: true,
   },
   {
     title: "BHP Detection System",
     description:
-      "CNN-based image classifier integrated with Node.js, WhatsApp API, and React.js frontend for real-time notifications.",
+      "CNN-based image classification system integrated with Node.js and WhatsApp notifications.",
     tags: ["CNN", "TensorFlow", "Node.js", "WhatsApp API", "React"],
-    featured: true,
-  },
-  {
-    title: "EcoCart",
-    description:
-      "Full MERN stack e-commerce platform with cart management, Razorpay integration, and admin dashboard for product and order management.",
-    tags: ["MongoDB", "Express", "React", "Node.js", "Razorpay"],
-    featured: true,
+    featured: false,
   },
   {
     title: "Music App",
     description:
-      "MERN-based web music player supporting playlist creation, search, and real-time song streaming.",
+      "MERN-based streaming platform with playlists and search.",
     tags: ["MERN", "Streaming", "Playlists"],
+    featured: false,
+  },
+  {
+    title: "Career Website",
+    description:
+      "PHP + MySQL job portal with admin and user workflows.",
+    tags: ["PHP", "MySQL", "Job Portal"],
     featured: false,
   },
   {
@@ -42,13 +70,6 @@ const projects = [
     description:
       "Full-stack scheduling system for candidates and interviewers with HR dashboard and status tracking.",
     tags: ["Django", "Python", "Full Stack"],
-    featured: false,
-  },
-  {
-    title: "Career Website",
-    description:
-      "PHP + MySQL job portal enabling employer listings, candidate applications, and admin management.",
-    tags: ["PHP", "MySQL", "Job Portal"],
     featured: false,
   },
   {

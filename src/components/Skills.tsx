@@ -2,34 +2,54 @@ import { motion } from "framer-motion";
 
 const skillGroups = [
   {
-    title: "Programming",
-    items: ["C", "C++", "Python", "Java", "JavaScript", "TypeScript", "PHP", "HTML"],
-    span: "md:col-span-2",
+    title: "Languages",
+    items: ["C", "C++", "Python", "JavaScript", "PHP"],
+    span: "md:col-span-1",
   },
   {
-    title: "Web Development",
-    items: ["MongoDB", "Express.js", "React.js", "Node.js", "Next.js", "TypeScript", "REST APIs", "WebSockets"],
-    span: "md:col-span-2",
+    title: "Frontend",
+    items: ["React.js", "Next.js", "TypeScript", "HTML", "CSS"],
+    span: "md:col-span-1",
   },
   {
-    title: "AI & ML",
-    items: ["MCP", "LangChain", "Deep Learning", "RAG", "FAISS", "CNNs", "TensorFlow", "Model Quantization", "n8n"],
-    span: "md:col-span-2",
-  },
-  {
-    title: "Operating Systems",
-    items: ["QNX", "POSIX APIs", "Linux Kernel", "Driver Programming"],
+    title: "Backend",
+    items: ["Node.js", "Express.js", "REST APIs", "WebSockets", "Microservices"],
     span: "md:col-span-1",
   },
   {
     title: "Databases",
-    items: ["SQL", "MongoDB"],
+    items: ["MongoDB", "PostgreSQL", "SQL"],
+    span: "md:col-span-1",
+  },
+  {
+    title: "Cloud & DevOps",
+    items: ["AWS (EC2, S3)", "Render", "Docker", "CI/CD"],
+    span: "md:col-span-1",
+  },
+  {
+    title: "Integrations & APIs",
+    items: ["Twilio API", "Google OAuth", "Salesforce API", "WhatsApp Cloud API (Meta)", "Razorpay"],
+    span: "md:col-span-1",
+  },
+  {
+    title: "Real-Time Systems",
+    items: ["WebSockets", "Redis", "BullMQ", "Event-driven architecture"],
+    span: "md:col-span-1",
+  },
+  {
+    title: "AI & Automation",
+    items: ["RAG", "LangChain", "LangGraph", "FAISS", "n8n", "AI Agents"],
     span: "md:col-span-1",
   },
   {
     title: "Tools",
-    items: ["Git", "Docker", "Notion", "Jira", "Salesforce"],
-    span: "md:col-span-2",
+    items: ["Git", "Jira", "Notion", "Postman", "Linux"],
+    span: "md:col-span-1",
+  },
+  {
+    title: "Systems Programming",
+    items: ["POSIX APIs", "Linux Kernel", "QNX RTOS"],
+    span: "md:col-span-1",
   },
 ];
 

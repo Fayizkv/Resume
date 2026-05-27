@@ -3,16 +3,16 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "WhatsApp AI Agent",
+    title: "WhatsApp, IG AI Agent",
     description:
-      "Built a multi-tenant automation platform using Meta WhatsApp Cloud API (Flows, Business API), integrated with Notion, Google Sheets, Calendars, Gmail, and Gemini via LangChain and LangGraph. Used Redis and BullMQ for scalable task processing.",
+      "Built a multi-tenant automation platform using Meta WhatsApp Cloud API (Flows, Business API), Instagram Graph API, integrated with Notion, Google Sheets, Calendars, Gmail, and Gemini via LangChain and LangGraph. Used Redis and BullMQ for scalable task processing.",
     tags: ["Node.js", "LangChain", "LangGraph", "Redis", "BullMQ", "WhatsApp API"],
     featured: true,
   },
   {
     title: "ERP System",
     description:
-      "Developed a full ERP solution using Node.js, PostgreSQL, and React with GST compliance, inventory management, accounting, and CRM modules.",
+      "Developed a Multi Tenant ERP solution using Node.js, PostgreSQL, and React with GST compliance, inventory management, accounting, and CRM modules.",
     tags: ["Node.js", "PostgreSQL", "React", "ERP"],
     featured: true,
   },

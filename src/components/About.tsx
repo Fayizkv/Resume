@@ -25,15 +25,18 @@ const About = () => {
             Turning complexity into{" "}
             <span className="gradient-text">clean code</span>
           </h3>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-            Full Stack Developer who loves building things that actually work—from
-            AI/ML models to real-time systems. Specialized in the MERN stack, I
-            dive into system-level programming when performance matters, and enjoy
-            turning complex problems into clean code. Transitioned from low-level
-            systems (QNX/Linux Kernel) to high-level MERN stack and AI
-            architecture. Thrive when leading teams, fast learner, clear
-            communicator, and always curious about the next challenge.
-          </p>
+          <div className="text-muted-foreground text-lg leading-relaxed mb-10 space-y-4">
+            <p className="font-mono text-primary text-sm font-semibold">
+              Full-Stack Developer &bull; Backend & System Design &bull; AI Automation &bull; Fast Learner
+            </p>
+            <p>
+              3 years shipping production systems end-to-end across MERN, Go, and AI/RAG pipelines.
+              Built platforms serving 600+ concurrent users and backend services benchmarked at 1,000 req/sec with a 99.75% success rate.
+            </p>
+            <p>
+              Picks up new stacks fast; strong system-design instincts and an independent, high-velocity problem-solving style.
+            </p>
+          </div>
         </motion.div>
 
         <motion.div

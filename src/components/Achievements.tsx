@@ -4,15 +4,15 @@ import { Trophy, Medal, Heart } from "lucide-react";
 const achievements = [
   {
     icon: Heart,
-    title: "Conducted a hackathon focused on solving real-world problems.",
+    title: "Organized and conducted a hackathon focused on solving real-world problems.",
   },
   {
     icon: Trophy,
-    title: "1st Prize - Decipher Hackathon.",
+    title: "1st Prize — Decipher Hackathon.",
   },
   {
     icon: Medal,
-    title: "4th Rank - VAIGA Agri Hackathon (Government of Kerala).",
+    title: "4th Rank — VAIGA Agri Hackathon (Government of Kerala).",
   },
 ];
 

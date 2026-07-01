@@ -3,22 +3,22 @@ import { motion } from "framer-motion";
 const skillGroups = [
   {
     title: "Languages",
-    items: ["C", "C++", "Python", "JavaScript", "PHP"],
+    items: ["JavaScript/TypeScript", "Go", "Python", "C/C++", "Java", "PHP"],
     span: "md:col-span-1",
   },
   {
     title: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript", "HTML", "CSS"],
+    items: ["React.js", "Next.js", "React Native", "HTML", "CSS"],
     span: "md:col-span-1",
   },
   {
     title: "Backend",
-    items: ["Node.js", "Express.js", "REST APIs", "WebSockets", "Microservices"],
+    items: ["Node.js", "Express.js", "Go", "REST APIs", "WebSockets", "Microservices"],
     span: "md:col-span-1",
   },
   {
     title: "Databases",
-    items: ["MongoDB", "PostgreSQL", "SQL"],
+    items: ["MongoDB", "PostgreSQL", "SQLite", "SQL"],
     span: "md:col-span-1",
   },
   {
@@ -28,12 +28,12 @@ const skillGroups = [
   },
   {
     title: "Integrations & APIs",
-    items: ["Twilio API", "Google OAuth", "Salesforce API", "WhatsApp Cloud API (Meta)", "Razorpay"],
+    items: ["Twilio", "Google OAuth", "Salesforce", "WhatsApp Cloud API", "Instagram Graph API", "Razorpay"],
     span: "md:col-span-1",
   },
   {
     title: "Real-Time Systems",
-    items: ["WebSockets", "Redis", "BullMQ", "Event-driven architecture"],
+    items: ["Redis", "BullMQ", "Message Queues", "Event-Driven Architecture", "WebSockets"],
     span: "md:col-span-1",
   },
   {

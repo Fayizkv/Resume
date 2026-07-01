@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const links = [
   { icon: Github, href: "https://github.com/Fayizkv", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/in/fayiz-kv-a0548a271", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://linkedin.com/in/fayiz-k-v", label: "LinkedIn" },
   { icon: Mail, href: "mailto:fayizkvcklm2002@gmail.com", label: "Email" },
   { icon: Phone, href: "tel:+919562981771", label: "Phone" },
 ];

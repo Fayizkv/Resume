@@ -3,80 +3,73 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "WhatsApp, IG AI Agent",
+    title: "WhatsApp & Instagram AI Agent Platform",
     description:
-      "Built a multi-tenant automation platform using Meta WhatsApp Cloud API (Flows, Business API), Instagram Graph API, integrated with Notion, Google Sheets, Calendars, Gmail, and Gemini via LangChain and LangGraph. Used Redis and BullMQ for scalable task processing.",
-    tags: ["Node.js", "LangChain", "LangGraph", "Redis", "BullMQ", "WhatsApp API"],
+      "Architected a multi-tenant, multi-platform AI automation suite — web app plus a React Native mobile client — on the Meta WhatsApp Cloud API and Instagram Graph API, with support for custom/pluggable tools and integrations into Notion, Google Calendar, Gmail, and Sheets. Built advanced conversational intelligence: automated follow-ups, hot/cold lead scoring, and automatic human handoff, backed by a RAG pipeline (Gemini + LangChain/LangGraph) for context-aware expense and calendar management. Scaled to 600 concurrent users on a single AWS t4g.micro instance using Redis and BullMQ for asynchronous task processing.",
+    tags: ["React Native", "WhatsApp Cloud API", "Instagram Graph API", "LangChain", "LangGraph", "Gemini", "Redis", "BullMQ", "AWS"],
     featured: true,
   },
   {
-    title: "ERP System",
+    title: "URL Shortener — Go (Backend System-Design Benchmark)",
     description:
-      "Developed a Multi Tenant ERP solution using Node.js, PostgreSQL, and React with GST compliance, inventory management, accounting, and CRM modules.",
-    tags: ["Node.js", "PostgreSQL", "React", "ERP"],
+      "Designed and built a high-throughput URL shortener in Go to stress-test backend system-design fundamentals. Load-tested at 1,000 requests/second over a continuous 5-minute run on a shared AWS t4g.micro instance running other live workloads concurrently, sustaining a 99.75% success rate with no signs of degradation — indicating headroom well beyond the test window. Used Redis for caching, SQLite for persistence, and queue-based request handling for resilience under load.",
+    tags: ["Go", "Redis", "SQLite", "System Design", "AWS", "Load Testing"],
     featured: true,
   },
   {
-    title: "Custom CRM",
+    title: "ERP Platform + E-Commerce Microservices",
     description:
-      "Designed a CRM system with lead tracking, communication logging, and automation workflows.",
-    tags: ["CRM", "Node.js", "React"],
+      "Built and shipped a production multi-tenant ERP (Node.js, PostgreSQL, React) that automated the company's inventory-to-sales pipeline, GST-compliant accounting, and CRM workflows — directly improving operational efficiency. Extended the platform with microservices that let a single ERP instance centrally manage multiple e-commerce storefronts.",
+    tags: ["Node.js", "PostgreSQL", "React", "Microservices"],
+    featured: true,
+  },
+  {
+    title: "Salesman Route Tracking App",
+    description:
+      "Built a React Native field-force app where admins define and assign geo-routes to salesmen; salesmen check in and mark visits in real time. Integrated with the company ERP for unified sales and route analytics.",
+    tags: ["React Native", "ERP", "Analytics", "Geo-routes"],
     featured: true,
   },
   {
     title: "WhatsApp Broadcasting System",
     description:
-      "Developed a real-time bulk messaging system using Baileys (WebSockets) for automation workflows.",
-    tags: ["WebSockets", "Baileys", "Node.js"],
+      "Real-time bulk messaging engine built on Baileys/WebSockets for large-scale outbound automation workflows.",
+    tags: ["Baileys", "WebSockets", "Node.js", "Automation"],
     featured: true,
   },
   {
     title: "Knowledge AI System",
     description:
-      "Built a RAG-based system using Gemini on structured SQL data for context-aware question answering.",
-    tags: ["RAG", "Gemini", "SQL", "Python"],
+      "RAG-based Q&A system using Gemini over structured SQL data for context-aware enterprise knowledge retrieval.",
+    tags: ["RAG", "Gemini", "SQL", "Enterprise Q&A"],
     featured: true,
   },
   {
-    title: "EcoCart (E-Commerce)",
+    title: "Custom CRM",
     description:
-      "MERN-based platform with cart, payments (Razorpay), and admin dashboard.",
-    tags: ["MongoDB", "Express", "React", "Node.js", "Razorpay"],
-    featured: true,
+      "Lead tracking, communication logging, and sales automation workflows.",
+    tags: ["CRM", "Sales Automation", "Workflow"],
+    featured: false,
   },
   {
-    title: "BHP Detection System",
+    title: "EcoCart",
     description:
-      "CNN-based image classification system integrated with Node.js and WhatsApp notifications.",
-    tags: ["CNN", "TensorFlow", "Node.js", "WhatsApp API", "React"],
+      "MERN e-commerce platform with Razorpay payments and admin dashboard.",
+    tags: ["MERN", "Razorpay", "E-Commerce"],
     featured: false,
   },
   {
     title: "Music App",
     description:
-      "MERN-based streaming platform with playlists and search.",
+      "MERN streaming platform with playlists and search.",
     tags: ["MERN", "Streaming", "Playlists"],
     featured: false,
   },
   {
-    title: "Career Website",
+    title: "Career Portal",
     description:
-      "PHP + MySQL job portal with admin and user workflows.",
+      "PHP/MySQL job portal with admin and user workflows.",
     tags: ["PHP", "MySQL", "Job Portal"],
-    featured: false,
-  },
-  {
-    title: "Interview Scheduler",
-    description:
-      "Full-stack scheduling system for candidates and interviewers with HR dashboard and status tracking.",
-    tags: ["Django", "Python", "Full Stack"],
-    featured: false,
-  },
-  {
-    title: "Other Projects",
-    description:
-      "Resort Booking App, Weather App, Expense Tracker (MERN), and IoT projects including Arduino-based Party Light Automation and Piano Project.",
-    tags: ["MERN", "Arduino", "IoT"],
     featured: false,
   },
 ];
